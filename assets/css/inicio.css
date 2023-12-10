@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: rgb(252, 247, 247);
+}
+#apresentacao{
+    margin: 50px 30px 50px 10px;
+
+}
+#apresentacao > h1 {
+    text-align: center;
+    font-weight: 600;  
+}
+#produtos{
+    display: grid;
+    justify-content: space-around; 
+    place-items: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;  
+    margin: 10px 100px 100px 100px;
+    grid-gap: 50px;
+}
+.itens, span{
+    text-align: center;
+    font-size: 14px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    color: darkblue;
+}
+
+img {
+    height: 100%;
+    width:100%;
+    border-radius: 4px;
+
+}
+h2{
+    background-color: rgb(11, 11, 172);
+    color: #fff;
+    padding: 40px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    border: 0px;
+    
+    
+}
+
+h3{
+    color: black;
+}
+
+.ofertas{
+    display: grid;
+    justify-content: space-around; 
+    place-items: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copos {
+    text-align: center;
+    font-size: 14px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.rodape{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.itens {
+list-style: none;
+margin: 0;
+}
+.itens, a {
+    text-decoration: none;
+    color: #fff;
+}

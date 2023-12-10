@@ -1,0 +1,63 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: block;
+}
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #004aad;
+	color: #fff;
+}
+
+#barradenavegacao{
+	height: 120px;
+	display: flex;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+  }
+  
+  .nav-links li {
+	margin-right: 35px;
+	margin-top: 26px;
+	left: 50%;
+}
+  
+  .nav-links a {
+	text-decoration: none;
+	color: white;
+	font-family:'roboto', sans-serif;
+	font-size: 20px;
+
+  }
+input{
+	border-radius: 5px;
+	height: 30px;
+    width: 420px;
+	position: relative;
+	bottom: 10%;
+}
+#logo{
+	width: 90px;
+	height: 80px;
+	margin-bottom: 30px;
+	position: flex;
+	
+}
+
+#pesquisa{
+	width: 23vw;
+	height: 20hw;
+	position: flex;
+	left: 20px;
+
+}
